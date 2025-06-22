@@ -5,7 +5,6 @@
 - [Project Overview](#project-overview)
 - [Features](#features)
 - [Technology Stack](#technology-stack)
-- [Project Structure](#project-structure)
 - [Prerequisites](#prerequisites)
 - [Setup and Installation](#setup-and-installation)
 - [Running the Application](#running-the-application)
@@ -45,25 +44,6 @@ The application allows users to interact with an AI assistant specialized in fro
   - `@nestjs/throttler` for rate limiting
 - **Containerization**:
   - Docker
-
-
-## Project Structure
-
-├── backend/                  # NestJS backend application
-│   ├── src/
-│   ├── .env.example
-│   ├── Dockerfile            # Dockerfile for backend
-│   └── package.json
-├── frontend/                 # React frontend application (Vite)
-│   ├── src/
-│   │   ├── components/
-│   │   ├── App.tsx
-│   │   └── main.tsx
-│   ├── .env.development
-│   ├── index.html
-│   └── package.json
-└── README.md                 # This file
-
 
 ## Prerequisites
 
