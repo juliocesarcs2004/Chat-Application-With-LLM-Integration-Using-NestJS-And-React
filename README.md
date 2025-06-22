@@ -1,6 +1,4 @@
-# Expert Chat: Frontend Development Best Practices
-
-This is a full-stack chat application designed to answer questions about **Front-end Development Best Practices**. It features a React frontend (built with Vite) and a NestJS backend, leveraging the Google Gemini API for intelligent, domain-focused responses.
+# AIChat: Chat Application with LLM Integration using NestJS and React
 
 ## Table of Contents
 
