@@ -46,23 +46,24 @@ The application allows users to interact with an AI assistant specialized in fro
 - **Containerization**:
   - Docker
 
+
 ## Project Structure
 
-expert-chat/
-├── backend/ # NestJS backend application
-│ ├── src/
-│ ├── .env.example
-│ ├── Dockerfile # Dockerfile for backend
-│ └── package.json
-├── frontend/ # React frontend application (Vite)
-│ ├── src/
-│ │ ├── components/
-│ │ ├── App.tsx
-│ │ └── main.tsx
-│ ├── .env.development
-│ ├── index.html
-│ └── package.json
-└── README.md # This file
+├── backend/                  # NestJS backend application
+│   ├── src/
+│   ├── .env.example
+│   ├── Dockerfile            # Dockerfile for backend
+│   └── package.json
+├── frontend/                 # React frontend application (Vite)
+│   ├── src/
+│   │   ├── components/
+│   │   ├── App.tsx
+│   │   └── main.tsx
+│   ├── .env.development
+│   ├── index.html
+│   └── package.json
+└── README.md                 # This file
+
 
 ## Prerequisites
 
